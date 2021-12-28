@@ -37,9 +37,9 @@ List from http://www.cplusplus.com/forum/beginner/3473/
 
 6. [x] Develop a programme that uses a randomly generated number to select 1 of 3 (or more) functions to show the user.
 7. [x] Guessing game. ask the user to guess a number between 1 and a 100. If you guessed correctly, it will say you win. If you're too high or too low it will also let you know.
-8. [ ] Create a programme which generates Fibonacci series til a number 'n', where 'n' is entered by the user. Eg if the user enters 10 then the output would be: `1 1 2 3 5 8`
-9. [ ] Given a string, determine how many of the characters are vowels and how many are consonants. Terminate the string when the input character encountered is non-alphabetic.
-10. [ ] Find the Fifth root of the sum of the squares of the first 100 ODD numbers only.
+8. [x] Create a programme which generates Fibonacci series til a number 'n', where 'n' is entered by the user. Eg if the user enters 10 then the output would be: `1 1 2 3 5 8`
+9. [x] Given a string, determine how many of the characters are vowels and how many are consonants. Terminate the string when the input character encountered is non-alphabetic.
+10. [x] Find the Fifth root of the sum of the squares of the first 100 ODD numbers only.
 11. [ ] List all possible combinations of letters in a 4-letter word. Eg 'TEST' can be unscrambled as TEST, TETS, TSET, TSTE, TTSE, TTES, etc.
 12. [ ] Make a programme that allows the user to input either the radius, diameter, or area of the circle. The programme should then calculate the other 2 based on the input.
 13. [ ] Read a line of text and write it out backwards using a recursive function.
