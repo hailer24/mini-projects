@@ -44,47 +44,44 @@ List from http://www.cplusplus.com/forum/beginner/3473/
 12. [x] Make a programme that allows the user to input either the radius, diameter, or area of the circle. The programme should then calculate the other 2 based on the input.
 13. [x] Read a line of text and write it out backwards using a recursive function.
 14. [x] Write a programme to simulate a simple calculator. It should accept two numbers from the user along with the required operation to be performed. Addition, subtraction, division and multiplication are the basic operations that should be implemented. Feel free to implement other operations. Bonus points for splitting the calculation functions into a separate module.
-15. [ ] Determine how much money is in a piggy bank that contains several £2 coins, £1 coins, 50p coins, 20p coins, 10p coins and 5p coins. Use the following values to test your programme: one £2, three £1, five 50p coins, two 20p coins, one 10p coin and fifteen 5p coins.
-16. [ ] Create a simple palindrome checker programme. The programme should allow the user to enter a string and check whether the given string is a palindrome or not. Only digits and alphabets should be considered while checking for palindromes - any other characters are to be ignored.
-17. [ ] Write a programme that allows you to input students' midterm, final and homework scores, and calculate a weighted score. Use the following weights: 20% midterm, 40% final, 40% median homework.
 
 ## Intermediate
 
-18. [ ] Simple file encryption (using something simple like ROT13).
-19. [ ] Write a programme which will print all the pairs of prime numbers whose sum equals the number entered by the user. Eg 10 = 5 + 5, 7 + 3; 12 = 11 + 1, 5 + 7
-20. [ ] Write a quiz which retrieves a question and answer from a file. Allow the user to take the quiz, count points total and show score.
-21. [ ] Read XHTML, remove the tags, then print out the remaining text.
-22. [ ] Write a programme which performs addition, subtraction, multiplication of matrices. The dimensions of both the matrices would be specified by the user (dynamic memory allocation required). Use of structure or a class to define the matrix would be a good idea.
-23. [ ] Write a programme which will perform the job of moving the file from one location to another. The source and destination path will be entered by the user. Perform the required error checking and handle the exceptions accordingly.
-24. [ ] Create a sophisticated linked list class. You should be able to insert and delete nodes anywhere in the list, and the linked list should be (doubly linked)[https://en.wikipedia.org/wiki/Doubly_linked_list].
-25. [ ] Create a programme that implements a database. The fields are hard-coded, and the data is saved in a binary file. Although this isn't really flexibility, you aren't relying on any external libraries or functions.
-26. [ ] Create a command-line todo list. Users should be able to add, complete and delete items. Bonus: use a database (eg SQLite) to persist todo items between programme runs.
+1. [x] Simple file encryption (using something simple like ROT13).
+2. [x] Write a programme which will print all the pairs of prime numbers whose sum equals the number entered by the user. Eg 10 = 5 + 5, 7 + 3; 12 = 11 + 1, 5 + 7
+3. [x] Write a quiz which retrieves a question and answer from a file. Allow the user to take the quiz, count points total and show score.
+4. [ ] Read XHTML, remove the tags, then print out the remaining text.
+5. [ ] Write a programme which performs addition, subtraction, multiplication of matrices. The dimensions of both the matrices would be specified by the user (dynamic memory allocation required). Use of structure or a class to define the matrix would be a good idea.
+6. [ ] Write a programme which will perform the job of moving the file from one location to another. The source and destination path will be entered by the user. Perform the required error checking and handle the exceptions accordingly.
+7. [ ] Create a sophisticated linked list class. You should be able to insert and delete nodes anywhere in the list, and the linked list should be (doubly linked)[https://en.wikipedia.org/wiki/Doubly_linked_list].
+8. [ ] Create a programme that implements a database. The fields are hard-coded, and the data is saved in a binary file. Although this isn't really flexibility, you aren't relying on any external libraries or functions.
+9. [ ] Create a command-line todo list. Users should be able to add, complete and delete items. Bonus: use a database (eg SQLite) to persist todo items between programme runs.
 
 ## Expert
 
-27. [ ] Write a programme which acted like a personal planner. A user can input an event, note things to-do on a certain date.
+1. [ ] Write a programme which acted like a personal planner. A user can input an event, note things to-do on a certain date.
 
-28. [ ] Make a Markov chain generator. Read text from a source, create a histogram and allow different prefix lengths. See [Think Python](http://greenteapress.com/thinkpython2/html/thinkpython2014.html#sec159) for info.
-29. [ ] Noughts and crosses game.
-30. [ ] Create a Youtube video downloader (actually really difficult cos Youtube tries to block everything)
+2. [ ] Make a Markov chain generator. Read text from a source, create a histogram and allow different prefix lengths. See [Think Python](http://greenteapress.com/thinkpython2/html/thinkpython2014.html#sec159) for info.
+3. [ ] Noughts and crosses game.
+4. [ ] Create a Youtube video downloader (actually really difficult cos Youtube tries to block everything)
 
-31. [ ] Write a phone/address book programme, with persistent data. The users should be able to add/delete/change the data.
-32. [ ] Write a simple payroll programme, that would include pay rates, and hours work for employees.
-33. [ ] Write a card game, eg blackjack
-34. [ ] Create a chess game.
-35. [ ] Create a binary tree which has search and sorting functions.
-36. [ ] Create a Quine, (a programme that prints out its own source code).
-37. [ ] [Make a pokedex](http://codereview.stackexchange.com/questions/135293/basic-pokedex-in-c) - use a database, enums for types/gender etc
-38. [ ] Video format converter, eg .mov to .mp4 (ie frontend to ffmpeg)
-39. [ ] URL shortener service
+5. [ ] Write a phone/address book programme, with persistent data. The users should be able to add/delete/change the data.
+6. [ ] Write a simple payroll programme, that would include pay rates, and hours work for employees.
+7. [ ] Write a card game, eg blackjack
+8. [ ] Create a chess game.
+9. [ ] Create a binary tree which has search and sorting functions.
+10. [ ] Create a Quine, (a programme that prints out its own source code).
+11. [ ] [Make a pokedex](http://codereview.stackexchange.com/questions/135293/basic-pokedex-in-c) - use a database, enums for types/gender etc
+12. [ ] Video format converter, eg .mov to .mp4 (ie frontend to ffmpeg)
+13. [ ] URL shortener service
 
 ## Graphics
 
-40. [ ] Write a programme to draw a rectangle, ellipse, square, circle, point and line based on user input.
-41. [ ] Create a paint programme. It should be possible to switch between different tools (circle, rectangle, eraser etc) using pre-defined key strokes.
-42. [ ] Plot a simple x-y graph for a hardcoded function (e.g. y=cos(x)). It should be possible to zoom in on any part of the graph.
-43. [ ] Write a programme to plot a graph of given equation of form y=f(x) and a range for x as command line arguments. (e.g. my_graph_plotter -eq="y=x\*x" -xmin=-10, -xmax=10) (PS: more to do with equation solving than graphics)
-44. [ ] Write the classic brick break-out game (Arkanoid/Breakout)
+1. [ ] Write a programme to draw a rectangle, ellipse, square, circle, point and line based on user input.
+2. [ ] Create a paint programme. It should be possible to switch between different tools (circle, rectangle, eraser etc) using pre-defined key strokes.
+3. [ ] Plot a simple x-y graph for a hardcoded function (e.g. y=cos(x)). It should be possible to zoom in on any part of the graph.
+4. [ ] Write a programme to plot a graph of given equation of form y=f(x) and a range for x as command line arguments. (e.g. my_graph_plotter -eq="y=x\*x" -xmin=-10, -xmax=10) (PS: more to do with equation solving than graphics)
+5. [ ] Write the classic brick break-out game (Arkanoid/Breakout)
 
 fuzzy search (levenstein)
 gui
